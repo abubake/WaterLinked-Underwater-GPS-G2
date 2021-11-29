@@ -9,7 +9,7 @@ Materials Needed:
 * WaterLinked Antenna
 * WaterLinked Locator U1
 * GOPRO Pole (length dependent on application)
-* GOPRO and Mountable underwater GoPro Light
+* GOPRO and Mountable underwater GOPRO Light
 * GOPRO with waterproof housing
 * GOPRO battery and microSD card
 * MicroSD card reader
