@@ -138,6 +138,8 @@ To record video, press and release the button on the top of the top of the GOPRO
  
 To collect GPS data from the locator, setup the python file "tracking_gps.py" from this repository in your favorite code editor or IDE. The orignal version of this code is available at https://github.com/waterlinked/examples along with several other useful examples depending on your needs. I recommend using the IDE spyder to run the code. Once it starts running, it will begin recording datapoints from the locator, so when you are ready for it to stop recording press control-C on the keyboard. This will generate a .gpx (GPS data) file in whatever folder the program "tracking_gps.py" is located. This file contains the latitude, longititude, depth, and a timestamp for each datapoint.
 
+Make sure the GUI is still running, as the code will only run when the GUI is active.
+
 I recommend trying to start the GOPRO and the tracking_gps file at close to the same time, as this in benefical later in processing the data.
   
 ## Data Collection
