@@ -1,21 +1,163 @@
 # WaterLinked-Underwater-GPS-G2
 
-First we will set up the GPS itself, here are an outline of the steps in the process:
+Instructions on the set up and use of the Waterlinked Underwater GPS G2 with the antenna configuration with the GOPRO Hero 9 to create georeferenced Mosaics in ArcGIS.
+
+Materials Needed:
+* Lectron Pro 14.8V 5200 mAh Battery
+* Outside location with clear view to the sky
+* WaterLinked Topside Unit
+* WaterLinked Antenna
+* WaterLinked Locator U1
+* GOPRO Pole (length dependent on application)
+* GoPRO and Mountable underwater GoPro Light
+* GOPRO with waterproof housing
+* GOPRO battery and microSD card
+* MicroSD card reader
+* Laptop Computer
+* Smartphone with Compass app or actual compass
+* Rubber or elastic band for simple mounting. If mounting on boat, use a more secure method
+
+First we will set up the GPS itself, followed by the GOPRO, and then the data collection process. 
+
+Here are an outline of the steps in the process:
+
+### Section 1 GPS Setup 
 * Power the Topside unit
+* Connect to the GUI
+* Power the locator
 * Calibrate IMUs
-* Deploying Antenna/Receivers
-* Connect everything
-* Select Locator and channel
-* Configure Antenna/Receiver placement in GUI
+* Deploy the antenna
+* Connect the locator
+* Edit configuration settings in GUI
 
-![alt text](https://i.pinimg.com/originals/0f/0e/53/0f0e53ef636672fb1becaf50d219b4f2.png)
+### Section 2 GOPRO Setup
+* GOPRO and light Setup
+* Mounting the Light and GOPRO
+* GOPRO Operation
 
-Next we will set up the GoPro. For the conditions in cedar key, it is recommended to use --.
-The GoPro is in the SKB case. Remove it, and connect it to the carbon fiber pole using one of the GoPro screws located within the case. Push the screw through the 
-mounting holes until it makes it through both mounting holes, then begin screwing until tight.
+### Section 3 Data Collection
+* Setup Instructions
+* Data Collection
+* Data Processing
 
-The light is mounted on the back of the GoPro, to turn it on simply press the rubber button on top 3 times to get it to the brightest setting. TO shut it off, hold down the button.
+# Section 1 GPS Setup 
 
+## Power the Topside unit
+
+The topside unit (pictured below) can be powered several different ways, but the easiest is to use a battery, as it is inside the case of the topside unit and safe from water.
+
+<img>![image](https://user-images.githubusercontent.com/32299736/143919023-df2543e1-810c-4e54-bd45-dd4e761831b7.png)
+
+Plug in the battery as pictured, and press the power button located on the side of the topside unit to start it up.
+
+<img>
+
+## Connect to the GUI
+
+The next step is to connect to the online GUI. To do this, you first need to connect to the Topside unit's Wi-Fi on your laptop. You should see it appear in your Wi-Fi options now that the unit is powered. The password is waterlinked. Once you connect, you can now access the GUI. To do this, enter http://192.168.7.1/ in your browser. Chrome or Firefox are recommended, and it will not work with internet explorer.
+
+## Power the Locator
+
+We will now step away from the GUI briefly to connect our locator. The locator (pictured below) is what the antenna is finding the location of, and it will only function properly once underwater. The locator needs to connect to the topside unit, and this takes a few minutes. 
+
+![image](https://user-images.githubusercontent.com/32299736/143930380-c1398871-39fc-4b04-a3dd-ba8798872810.png)
+
+To begin the connection process, screw the seal on the back of the locator until a green light comes on and begins to flash. Once the light becomes solid green a connection is established. While the back cap is off the locator, please take note of the number on that the little arrow is pointing to, as this indicates a configuration setting (the locator channel number) for our GUI. Set the locator aside while it is connecting and move on to the next step.
+
+<img> (locator channel number)
+
+## Calibrate IMUs
+
+The topside unit requires some calibration. In the GUI, navigate to settings in the menu, which is on the left side of the screen. In settings, go ahead and set the locator type to Locator-U1 and the channel to the value you wrote down that was on the locator.
+
+Now scroll down to "Topside Setup" and click "Onboard IMU calibration".
+
+![image](https://user-images.githubusercontent.com/32299736/143930108-782ba48e-299e-4004-bb8c-2541f98cd6f3.png)
+
+This will open a menu where you will follow the three steps provided to ensure your topside unit will function properly. This should be done each time the topside unit is moved to a new location.
+
+## Deploy the antenna
+
+Now connect the antenna cable to the topside unit connector labeled Reciever D1/Antenna. To connect make sure the three prongs of the connector are aligned properly, and once plugged in, twist the connector to the right to lock it in.
+
+![image](https://user-images.githubusercontent.com/32299736/143932132-caec6259-e917-48bc-a509-d434b4d61c6c.png)
+
+Now the antenna can be placed in the water. Mount in whatever way works for your situation. Zipties or elastic/ excercise bands work well, and have the benefit of not requiring permanent mounting. It is recommended to have the bottom of the antenna reach 1 meter below the surface for optimum measurements, although it will work at any depth.
+
+## Connect the locator
+
+Now the locator needs to be connected to whatever you will be tracking the location of. For our case, it is the GOPRO Hero 9 that we are tracking the location of as we record video. So, The locator needs to be mounted on a GOPRO pole near where the GOPRO will be mounted. I recommend for easy mounting using zipties and or elastic bands to ensure it stays connected. See image below for example.
+
+<locator on gopro pole>
+
+## Edit configuration settings in GUI
+  
+Navigate to "baseline" in the GUI menu. You should see a screen like below. This is where you can adjust the range the system will work within. Limiting the range increases the accuracy.
+  
+![image](https://user-images.githubusercontent.com/32299736/143933524-5426c926-8ba4-4608-b4a5-234f58119d34.png)
+  
+Once the locator is placed underwater, your system should now work properly. A proper working system will display checkmarks for everything in the system status. If there is an issue, it will tell you what to do to resolve it.
+  
+![image](https://user-images.githubusercontent.com/32299736/143934420-a0e25a7c-ad77-4c3c-9af7-11d66cced993.png)
+  
+To see the GPS data, navigate to the diagnostic tab under menu. This will show the locator's position relative to the topside unit. 
+
+![image](https://user-images.githubusercontent.com/32299736/143934436-eacccf6c-d4db-4362-a50a-1066b9209cb1.png)
+
+You can also see this data graphically in 2D under the position tab of the menu.
+
+# Section 2 GOPRO Setup
+  
+## GOPRO and light Setup
+
+Next we will set up the GOPRO. For this project, the GOPRO Hero 9 was used, but should work with any other GOPRO. If a microSD card and or charged battery is not already inserted, insert one into the battery/MicroSD port located on the left side of the GOPRO. To open the port, pull down on the protruding piece of plastic until the door of the port pops open. Insert the MicroSD first, followed by the battery.
+  
+![image](https://user-images.githubusercontent.com/32299736/143936236-51ae6ada-8cc4-424d-8951-12d1cc54ec59.png)
+  
+The GOPRO can now be inserted to the waterproof casing, insert it and lock the top latch.
+ 
+The light is mounted on the back of the GoPro, to turn it on simply press the button on top 3 times to get it to the brightest setting. TO shut it off, hold down the button.
+  
+## Mounting the Light and GOPRO
+  
+If not already mounted, place a GOPRO mount on the back part of the waterproof casing as shown below. This allows the underwater light to be mounted as shown.
+  
+<two gopro light mounted images>
+    
+Now take the GOPRO and connect it to the GOPRO pole using a GOPRO screw as seen in the image with the light mounting. Align the holes of the top of the pole and the underwater casing so that the screw can fit through. Force the screw through until it reaches the other side, and then proceed to screw it in until tight by hand.
+  
+## GOPRO Operation
+  
+At this point you are set up but need to know how to properly record and access video you take. To power on the GOPRO, press and hold the button on the side (the power/select button) until a red light flashes. It is now on, and you should be able to see the what the camera sees via an screen on the back of the GOPRO. To set it to video mode, press and release the power button to switch between time lapse, video, and photo. We want to have it in video mode. Sometimes if left unsused the GOPRO will go into power saving mode and shut off the LCD screen. To wake it up, simply press the power button.
+  
+To record video, press and release the button on the top of the top of the GOPRO. To stop recording, do the same. To power off, again press and hold the button on the side.
+  
+# Section 3 Data Collection
+  
+## Setup Instructions
+ 
+To collect GPS data from the locator, setup the python file "tracking_gps.py" from this repository in your favorite code editor or IDE. The orignal version of this code is available at https://github.com/waterlinked/examples along with several other useful examples depending on your needs. I recommend using the IDE spyder to run the code. Once it starts running, it will begin recording datapoints from the locator, so when you are ready for it to stop recording press control-C on the keyboard. This will generate a .gpx (GPS data) file in whatever folder the program "tracking_gps.py" is located. This file contains the latitude, longititude, depth, and a timestamp for each datapoint.
+
+I recommend trying to start the GOPRO and the tracking_gps file at close to the same time, as this in benefical later in processing the data.
+  
+## Data Collection
+
+For this step begin recording with the GOPRO as well as running the tracking_gps file, while moving the GOPRO through the water with the GOPRO aimed at the area you wish to make a georeferenced mosaic of. Once you have covered the full area you wish to mosaic, stop recording and stop the code from running.
+
+  
+## Data Processing
+  
+FIXME: Need to discuss splitting up the frames and how to make the mosaic using the gpx file with the GOPRO footage.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 1. A clear and complete protocol for setting up the underwater GPS and GoPro. For example, imagine that someone that has never used these two instruments has to use them one day, and all they have is your protocol. Make it easy for them.
 
 * Beginning to write protocol for GPS setup, need to pickup GPS
