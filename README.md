@@ -8,6 +8,8 @@ First we will set up the GPS itself, here are an outline of the steps in the pro
 * Select Locator and channel
 * Configure Antenna/Receiver placement in GUI
 
+![alt text](https://i.pinimg.com/originals/0f/0e/53/0f0e53ef636672fb1becaf50d219b4f2.png)
+
 Next we will set up the GoPro. For the conditions in cedar key, it is recommended to use --.
 The GoPro is in the SKB case. Remove it, and connect it to the carbon fiber pole using one of the GoPro screws located within the case. Push the screw through the 
 mounting holes until it makes it through both mounting holes, then begin screwing until tight.
