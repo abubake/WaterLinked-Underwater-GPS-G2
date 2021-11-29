@@ -50,7 +50,7 @@ The topside unit (pictured below) can be powered several different ways, but the
 
 Plug in the battery as pictured, and press the power button located on the side of the topside unit to start it up.
 
-<img>
+![image](https://user-images.githubusercontent.com/32299736/143944877-303ddeab-0130-4c38-a0e1-02a8fd911f2f.png)
 
 ## Connect to the GUI
 
@@ -64,7 +64,7 @@ We will now step away from the GUI briefly to connect our locator. The locator (
 
 To begin the connection process, screw the seal on the back of the locator until a green light comes on and begins to flash. Once the light becomes solid green a connection is established. While the back cap is off the locator, please take note of the number on that the little arrow is pointing to, as this indicates a configuration setting (the locator channel number) for our GUI. Set the locator aside while it is connecting and move on to the next step.
 
-<img> (locator channel number)
+![image](https://user-images.githubusercontent.com/32299736/143945323-ff9bbda4-f663-443a-ad8d-8216d3e2a3ae.png)
 
 ## Calibrate IMUs
 
@@ -88,7 +88,7 @@ Now the antenna can be placed in the water. Mount in whatever way works for your
 
 Now the locator needs to be connected to whatever you will be tracking the location of. For our case, it is the GOPRO Hero 9 that we are tracking the location of as we record video. So, The locator needs to be mounted on a GOPRO pole near where the GOPRO will be mounted. I recommend for easy mounting using zipties and or elastic bands to ensure it stays connected. See image below for example.
 
-<locator on gopro pole>
+![image](https://user-images.githubusercontent.com/32299736/143945390-177a552b-26db-450d-b898-5e442dc0139e.png)
 
 ## Edit configuration settings in GUI
   
@@ -122,7 +122,10 @@ The light is mounted on the back of the GoPro, to turn it on simply press the bu
   
 If not already mounted, place a GOPRO mount on the back part of the waterproof casing as shown below. This allows the underwater light to be mounted as shown.
   
-<two gopro light mounted images>
+![image](https://user-images.githubusercontent.com/32299736/143945508-34ffdc97-157d-4948-ab68-e6b2f32e32a8.png)
+
+![image](https://user-images.githubusercontent.com/32299736/143945577-8d2a1162-7cb7-4a50-85d1-e62dced27816.png)
+
     
 Now take the GOPRO and connect it to the GOPRO pole using a GOPRO screw as seen in the image with the light mounting. Align the holes of the top of the pole and the underwater casing so that the screw can fit through. Force the screw through until it reaches the other side, and then proceed to screw it in until tight by hand.
   
