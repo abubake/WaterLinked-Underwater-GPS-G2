@@ -131,7 +131,7 @@ Now take the GOPRO and connect it to the GOPRO pole using a GOPRO screw as seen 
   
 ## GOPRO Operation
   
-At this point you are set up but need to know how to properly record and access video you take. To power on the GOPRO, press and hold the button on the side (the power/select button) until a red light flashes. It is now on, and you should be able to see the what the camera sees via an screen on the back of the GOPRO. To set it to video mode, press and release the power button to switch between time lapse, video, and photo. We want to have it in video mode. Sometimes if left unsused the GOPRO will go into power saving mode and shut off the LCD screen. To wake it up, simply press the power button.
+At this point you are set up but need to know how to properly record and access video you take. To power on the GOPRO, press and hold the button on the side (the power/select button) until a red light flashes. It is now on, and you should be able to see the what the camera sees via an screen on the back of the GOPRO. To set it to video mode, press and release the power button to switch between time lapse, video, and photo. We want to have it in video mode. Sometimes if left unused the GOPRO will go into power saving mode and shut off the LCD screen. To wake it up, simply press the power button.
   
 To record video, press and release the button on the top of the top of the GOPRO. To stop recording, do the same. To power off, again press and hold the button on the side.
   
