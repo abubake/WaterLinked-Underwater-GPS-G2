@@ -155,29 +155,11 @@ For this step begin recording with the GOPRO as well as running the tracking_gps
 FIXME: Need to discuss splitting up the frames and how to make the mosaic using the gpx file with the GOPRO footage.
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-1. A clear and complete protocol for setting up the underwater GPS and GoPro. For example, imagine that someone that has never used these two instruments has to use them one day, and all they have is your protocol. Make it easy for them.
-
-* Beginning to write protocol for GPS setup, need to pickup GPS
-
-2. The results of a small experiment for which filters, if any, and light to use on the GoPro in murky water. I want you to discuss your recommendations based on your observations.
-
-* Will conduct experimentation on Sunday, ideally setting up camera saturday
-
-3. Establish a relatively simple method to extract still frames from the GoPro video data.
-
-* 
+ Mosaicking:
 
 4. Establish a relatively simple workflow to mosaic/stitch the frames together. You can look online at existing tools for underwater video mosaicking for seabed mapping. Discuss the different tools you tried, if many.
 
-*
+* autostich
 
 5. Establish a relatively simple workflow to georeference the mosaic, meaning that you need to associate the underwater GPS data with the mosaic. We need to be able to open the mosaic in a GIS software.
 
