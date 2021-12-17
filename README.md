@@ -198,3 +198,7 @@ Now open LAPMv2. It will prompt you to select a folder. Select the folder you ju
 
 ![image](https://user-images.githubusercontent.com/32299736/146604618-1579ea1b-39b0-4a65-8c8f-4ab29f38fd6d.png)
 
+The process to generate the GeoTiff is as follows: First upload the "navigation.csv" file by clicking "Navigation data & Input Files" in the GUI. Next click "detect and match features". Set it to automatic if the option is presented. Next do "find sidelinks". Again, set to automatic if it gives the option. Then click "refresh file system". Then "Global registration (linear)". After this, "plot topology" and then "assemble mosaic". This process will take a long time, but once completed a GeoTiff will be generated in a new folder within the main folder you made for using LAPMv2 originally.
+
+You can now open this generated GeoTiff file in ArcMap!
+
