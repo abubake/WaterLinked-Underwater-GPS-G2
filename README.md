@@ -107,6 +107,8 @@ To see the GPS data, navigate to the diagnostic tab under menu. This will show t
 You can also see this data graphically in 2D under the position tab of the menu.
 
 # Section 2 GOPRO Setup
+
+For the GOPRO for best clarity in murky conditions I experimentally determined an attachable "snorkeling filter" paired with an attached underwater light at full brightness to best enhance the clarity of the video. Second to this was the pairing of the light with no filter. The light iteself seemed to have the greatest effect on visibilty, enabling more of the lake bottom where testing was done to be seen, with greater clarity.
   
 ## GOPRO and light Setup
 
@@ -189,6 +191,8 @@ Now copy this into an excel sheet, and delete the 2nd and 3rd columns which will
 We are now ready to generate a GeoTiff Mosaic from the video.
 
 Mosaicking:
+
+Note: If you would just like to create an ungeoreferenced mosaic, this can be easily accomplished using the free program "autostitch" which you can download online. It simply takes all the images you wish to mosaic, and generates it in a few seconds. The method about to be described takes over an hour to complete. I had difficulty finding options that could both create a mosaic and georeference it, as although there were plenty of papers claiming they did so, they did not have their code publicly available. There was a github repository that had a project for georeferencing mosaics, but I found it to be too complicated to work with. I eventually settled with LAPMv2, which was from one of the  only papers I found that created a finished product, or that did not charge for their service.
 
 Download LAPMv2 on your computer. This is the software package we will use to produce a GeoTiff from the files we have created. 
 
