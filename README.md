@@ -168,7 +168,7 @@ and using the starting time of the first Underwater GPS data point as these inti
 
 ![image](https://user-images.githubusercontent.com/32299736/146601432-b3a452ac-ee1a-45a1-b0a5-d537db3614fc.png)
 
-Run the "gopro_to_timestamped_frame.py" script using your favorite IDE or text editor. I recommend Jupyter notebooks or Spyder, as I verifed the code to work in both. Running the code will generate another folder called "videos" inside of the "save" folder you created. Inside this newly generated "videos" folder will be another folder with the same name as your GOPRO video. When you open that folder, you will see all of your frames, like in the example below. Each frame has its own timestamp, a tenth of a second apart. So 10 frames are generated every second. This could be changed on future iterations of the code, but would take some work.
+Run the "gopro_to_timestamped_frame.py" script using your favorite IDE or text editor. I recommend Jupyter notebooks or Spyder, as I verifed the code to work in both. Running the code will generate another folder called "videos" inside of the "save" folder you created. Inside this newly generated "videos" folder will be another folder with the same name as your GOPRO video. When you open that folder, you will see all of your frames, like in the example below. Each frame has its own timestamp, a second apart. So 1 frame are generated every second. This could be changed on future iterations of the code, but would take some additional work.
 
 ![image](https://user-images.githubusercontent.com/32299736/146602098-f1d414da-a589-414e-9ed2-959b8c6b4361.png)
 
@@ -192,7 +192,7 @@ We are now ready to generate a GeoTiff Mosaic from the video.
 
 Mosaicking:
 
-Note: If you would just like to create an ungeoreferenced mosaic, this can be easily accomplished using the free program "autostitch" which you can download online. It simply takes all the images you wish to mosaic, and generates it in a few seconds. The method about to be described takes over an hour to complete. I had difficulty finding options that could both create a mosaic and georeference it, as although there were plenty of papers claiming they did so, they did not have their code publicly available. There was a github repository that had a project for georeferencing mosaics, but I found it to be too complicated to work with. I eventually settled with LAPMv2, which was from one of the  only papers I found that created a finished product, or that did not charge for their service.
+Note: If you would just like to create an ungeoreferenced mosaic, this can be easily accomplished using the free program "autostitch" which you can download online. It simply takes all the images you wish to mosaic, and generates it in a few seconds. The method about to be described takes over an hour to complete. I had difficulty finding options that could both create a mosaic and georeference it, as although there were plenty of papers claiming they did so, they did not have their code publicly available. There was a github repository that had a project for georeferencing mosaics, but I found it to be too complicated to work with. I eventually settled with LAPMv2, which was from one of the  only papers I found that created a finished product, or that did not charge for their service. A user manual for LAPMv2 is included in the files for additional support or for information on using more advanced features.
 
 Download LAPMv2 on your computer. This is the software package we will use to produce a GeoTiff from the files we have created. 
 
