@@ -1,0 +1,10 @@
+sensor.id,platform,camera.name,sensor.width,sensor.height,sensor.principalpointX,sensor.principalpointY,sensor.width,sensor.height,sensor.focal,offset.longitudinal,offset.transversal,offset.vertical,offset.roll,offset.pitch,offset.heading,comments
+integer,string,string,[pixels],[pixels],[pixels],[pixels],[mm],[mm],[mm],[m],[m],[m],[rad],[rad],[deg],string
+1,ROV Victor 6000 MMR,OTUS (LHESA LH1024 SPC),1024,1024,,,19.456,19.456,20,1.3105,-0.585,0.0474,0,0,0,with NIKKOR AF20mm f/2.8D lens
+2,ROV Victor 6000 MMR,Vertical colour HD,1920,1080,,,4.8,2.7,3.55,0.1625,-0.585,0.0406,0,0,0,
+3,ROV Victor 6000 MB,Vertical colour HD,1920,1080,,,4.8,2.7,3.55,0.576,0.4495,0.0406,0,0,0,
+4,Quest 4000,Canon Powershot G10,4416,3312,,,7.6,5.7,,0,0,0,0,0,0,
+5,Quest 4000,Scorpio (Nikon Coolpix 995),720,576,,,7.2,5.3,,0,0,0,0,0,0,
+6,OFOS (AWI),OFOS (Canon EOS 1Ds Mark III),5616,3744,,,36,24,24,0,0,0,0,0,270,
+7,OFOS (AWI),OFOS (Video),1920,1080,,,4.8,2.7,3.55,0,0,0,0,0,270,Sensor height and width are just guesses!!!
+8,AUV Sentry,Prosilica GC1380C,1360,1024,,,8.901,6.6048,6.5,0,0,0,0,0,0,"According to guidelines, hFoV(camera + optical dome = 1.15 x altitude. That means that a scale coefficient of 1.19 need to be applied to the focal length (6.5mm) in order to account for the optical dome."
