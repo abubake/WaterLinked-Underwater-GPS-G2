@@ -4,7 +4,7 @@ Instructions on the set up and use of the Waterlinked Underwater GPS G2 with the
 
 Materials Needed:
 * Lectron Pro 14.8V 5200 mAh Battery
-* Outside location with clear view to the sky
+* Outside location with clear view of the sky
 * WaterLinked Topside Unit
 * WaterLinked Antenna
 * WaterLinked Locator U1
