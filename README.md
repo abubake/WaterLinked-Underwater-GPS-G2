@@ -86,7 +86,7 @@ Now the antenna can be placed in the water. Mount in whatever way works for your
 
 ## Connect the locator
 
-Now the locator needs to be connected to whatever you will be tracking the location of. For our case, it is the GOPRO Hero 9 that we are tracking the location of as we record video. So, The locator needs to be mounted on a GOPRO pole near where the GOPRO will be mounted. I recommend for easy mounting using zipties and or elastic bands to ensure it stays connected. See image below for example.
+Now the locator needs to be connected to whatever you will be tracking the location of. For our case, it is the GOPRO Hero 9 that we are tracking the location of as we record video. So, the locator needs to be mounted on a GOPRO pole near where the GOPRO will be mounted. I recommend for easy mounting using zipties and or elastic bands to ensure it stays connected. See image below for example.
 
 ![image](https://user-images.githubusercontent.com/32299736/143945390-177a552b-26db-450d-b898-5e442dc0139e.png)
 
