@@ -54,7 +54,7 @@ Plug in the battery as pictured, and press the power button located on the side 
 
 ## Connect to the GUI
 
-The next step is to connect to the online GUI. To do this, you first need to connect to the Topside unit's Wi-Fi on your laptop. You should see it appear in your Wi-Fi options now that the unit is powered. The password is waterlinked. Once you connect, you can now access the GUI. To do this, enter http://192.168.7.1/ in your browser. Chrome or Firefox are recommended, and it will not work with internet explorer.
+The next step is to connect to the online GUI. To do this, you first need to connect to the Topside unit's Wi-Fi on your laptop. You should see it appear in your Wi-Fi options now that the unit is powered. The password is "waterlinked." Once you connect, you can now access the GUI. To do this, enter http://192.168.7.1/ in your browser. Chrome or Firefox are recommended, and it will not work with internet explorer.
 
 ## Power the Locator
 
