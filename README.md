@@ -108,7 +108,7 @@ You can also see this data graphically in 2D under the position tab of the menu.
 
 # Section 2 GOPRO Setup
 
-For the GOPRO for best clarity in murky conditions I experimentally determined an attachable "snorkeling filter" paired with an attached underwater light at full brightness to best enhance the clarity of the video. Second to this was the pairing of the light with no filter. The light iteself seemed to have the greatest effect on visibilty, enabling more of the lake bottom where testing was done to be seen, with greater clarity.
+To achieve the best clarity for a GOPRO in murky conditions I experimentally determined an attachable "snorkeling filter" paired with an attached underwater light at full brightness to best enhance the clarity of the video. Second to this was the pairing of the light with no filter. The light iteself seemed to have the greatest effect on visibilty, enabling more of the lake bottom where testing was done to be seen, with greater clarity.
   
 ## GOPRO and light Setup
 
@@ -163,8 +163,8 @@ Open the python file, and change the files paths of the variables "video_paths" 
 
 ![image](https://user-images.githubusercontent.com/32299736/146601060-b0d028ed-1246-469e-8c9a-0122c3cba07f.png)
 
-Next go to line 23 and begin filling out the information shown in the image below. The time values set here should match the starting time you wish to take both the underwater GPS and GOPRO footage from. On that note I recommend starting to record with the GOPRO first,
-and using the starting time of the first Underwater GPS data point as these intital values for increased accuracy.
+Next go to line 23 and begin filling out the information shown in the image below. The time values set here should match the starting time you wish to take both the underwater GPS and GOPRO footage from. On that note, I recommend starting to record with the GOPRO first.
+Use the starting time of the first Underwater GPS data point as these intital values for increased accuracy.
 
 ![image](https://user-images.githubusercontent.com/32299736/146601432-b3a452ac-ee1a-45a1-b0a5-d537db3614fc.png)
 
@@ -194,7 +194,7 @@ Mosaicking:
 
 Note: If you would just like to create an ungeoreferenced mosaic, this can be easily accomplished using the free program "autostitch" which you can download online. It simply takes all the images you wish to mosaic, and generates it in a few seconds. The method about to be described takes over an hour to complete. I had difficulty finding options that could both create a mosaic and georeference it, as although there were plenty of papers claiming they did so, they did not have their code publicly available. There was a github repository that had a project for georeferencing mosaics, but I found it to be too complicated to work with. I eventually settled with LAPMv2, which was from one of the  only papers I found that created a finished product, or that did not charge for their service. A user manual for LAPMv2 is included in the files for additional support or for information on using more advanced features.
 
-Download LAPMv2 on your computer. This is the software package we will use to produce a GeoTiff from the files we have created. 
+Download LAPMv2 on your computer. This is the software package we will use to produce a GeoTiff file from the files we have created. 
 
 There are a few additional times to complete before we launch LAPMv2. We first need to consolidate all of our data to be used. Create a folder and place "navigation.csv", "image_sequence.csv", "sensor_list.csv", and all the images being used inside of it.
 
