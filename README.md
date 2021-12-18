@@ -58,7 +58,7 @@ The next step is to connect to the online GUI. To do this, you first need to con
 
 ## Power the Locator
 
-We will now step away from the GUI briefly to connect our locator. The locator (pictured below) is what the antenna is finding the location of, and it will only function properly once underwater. The locator needs to connect to the topside unit, and this takes a few minutes. 
+We will now step away from the GUI briefly to connect our locator. The locator (pictured below) is what the antenna is finding the location of, and it will only function properly once underwater. The locator needs to connect to the topside unit, which may take a few minutes. 
 
 ![image](https://user-images.githubusercontent.com/32299736/143930380-c1398871-39fc-4b04-a3dd-ba8798872810.png)
 
