@@ -44,7 +44,7 @@ Here are an outline of the steps in the process:
 
 ## Power the Topside unit
 
-The topside unit (pictured below) can be powered several different ways, but the easiest is to use a battery, as it is inside the case of the topside unit and safe from water.
+The topside unit (pictured below) can be powered several different ways. The easiest is to use a battery, as it is inside the case of the topside unit and safe from water.
 
 <img>![image](https://user-images.githubusercontent.com/32299736/143919023-df2543e1-810c-4e54-bd45-dd4e761831b7.png)
 
